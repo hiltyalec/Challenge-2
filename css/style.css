@@ -52,16 +52,16 @@ nav a {
 article {
   display: flex;
   text-align: center;
-  height: 400px;
-  width: 800px;
+  height: 500px;
+  width: 900px;
   background-color:steelblue;
   padding: 20px;
   flex-direction: column;
 }
 
 .Burger img {
-  height: 300px;
-  width: 700px;
+  height: 400px;
+  width: 800px;
 }
 
 section {
@@ -101,6 +101,11 @@ ul{
   text-decoration: none;
   text-align: center;
   font-size: 145%;
-  flex-direction: row;
   list-style: none;
+}
+
+@media screen and (max-width: 992px) {
+  .section img {
+    width: 50%;
+  }
 }
