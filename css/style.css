@@ -59,6 +59,11 @@ article {
   flex-direction: column;
 }
 
+article a {
+  color: black;
+  text-decoration: none;
+}
+
 .Burger img {
   height: 400px;
   width: 800px;
