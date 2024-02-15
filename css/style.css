@@ -7,11 +7,11 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    justify-content: flex-start;
     background-color: mintcream;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
-  header {
+  .main-header {
     flex-direction: row;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@ body {
     font-size: 175%;
   }
   
-.header img{
+.main-header img{
   width: 200px;
   height: 200px;
 }
@@ -38,4 +38,55 @@ nav a {
   text-decoration: none;
   text-align: center;
   font-size: 150%;
+}
+
+.Projects {
+  flex: 1;
+  background-color: #fff;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+article {
+  display: flex;
+  text-align: center;
+  height: 400px;
+  width: 800px;
+  background-color:steelblue;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.Burger img {
+  height: 300px;
+  width: 700px;
+}
+
+section {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+section img {
+  display: flex;
+  min-width: 200px;
+  height: 400px;
+  width: 400px;
+}
+
+footer {
+
+}
+
+footer a {
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 150%;
+  
 }
