@@ -80,7 +80,7 @@ section img {
 
 footer {
   display: flex;
-  background-color:slateblue ;
+  background-color:rgb(39, 42, 221) ;
   justify-content: center;
   flex-direction: column;
   text-align: center;
